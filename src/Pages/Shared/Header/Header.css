@@ -1,0 +1,26 @@
+/* #333
+ */
+.nav-container {
+  background-color: #333;
+}
+.links {
+  color: #fff !important;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.login-btn {
+  padding: 2px 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.login-btn:hover {
+  background-color: #fff;
+  color: #000000 !important;
+}
+
+#navbarScrollingDropdown {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}

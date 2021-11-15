@@ -1,0 +1,41 @@
+.full-container {
+  background: linear-gradient(#00000010, #000000),
+    url(../../../Images/login-bg.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  height: 100vh;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.login-form {
+  background-color: #9999993b;
+  width: 500px;
+  padding: 30px 0;
+  border-radius: 10px;
+  backdrop-filter: blur(25px);
+  box-shadow: 0px 0px 36px -6px rgb(1 1 1 / 30%);
+  color: #fff;
+}
+.width {
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+.button {
+  background: #333;
+  color: #fff;
+}
+.button:hover {
+  background: #fff;
+  color: #000000;
+}
+.button:focus {
+  border: none;
+}
+.shadow {
+  box-shadow: 0px 0px 36px -6px rgb(1 1 1 / 60%);
+}
